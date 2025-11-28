@@ -7,7 +7,7 @@ This is a simple app built with python
 ## Installation
 1. Clone the repository
 ```
-git clone https://github.com/riteshsingh07/notes-app.git
+git clone https://github.com/riteshsingh07/python-fastapi-app
 ```
 
 2. Build the app
