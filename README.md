@@ -1,5 +1,7 @@
 # Simple Python FastAPI app
-This is a simple app built with python
+This is a simple app built with python.
+
+I'm going to deploy the Python App on AWS by creating Docker Image by using automation tool (Jenkins). 
 
 ## Requirements
 1. Python 3.9
