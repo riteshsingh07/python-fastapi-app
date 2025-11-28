@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+
+#Run
+#python3 app.py
