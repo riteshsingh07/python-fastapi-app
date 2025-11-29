@@ -11,12 +11,12 @@ git clone https://github.com/riteshsingh07/python-fastapi-app.git
 
 2. Build the app
 ```
-docker build -t notes-app .
+docker build -t python-app:latest .
 ```
 
 3. Run the app
 ```
-docker run -d -p 5555:5555 notes-app:latest
+docker run -d -p 5555:5555 python-app:latest
 ```
 
 ## EC2 Instance 
