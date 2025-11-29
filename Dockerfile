@@ -10,5 +10,5 @@ COPY . .
 
 EXPOSE 5555
 
-
+#CMD Command
 CMD ["python", "app.py"]
