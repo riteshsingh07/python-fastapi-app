@@ -99,6 +99,7 @@ sudo systemctl restart jenkins
 Before going for a Pipeline Code. Download the below plugin :
 Click on Manage Jenkins -> Plugins
 Select all the plugins at once and click on install. After Install, restart jenkins.
+
 ```
 1. Pipeline : Stage View
 2. AWS
