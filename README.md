@@ -6,7 +6,7 @@ We are going to deploy the Python App on AWS by creating Docker Image by using a
 ## Installation
 1. Clone the repository
 ```
-git clone https://github.com/riteshsingh07/python-fastapi-app
+git clone https://github.com/riteshsingh07/python-fastapi-app.git
 ```
 
 2. Build the app
