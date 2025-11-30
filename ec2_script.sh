@@ -1,17 +1,22 @@
 #!/bin/bash
 
-sudo apt update -y
+apt update -y
+apt install -y docker.io git
 
-sudo apt install docker.io -y
-sudo systemctl enable docker
-sudo systemctl start docker
+systemctl start docker
+systemctl enable docker
+usermod -aG docker ubuntu
 
 cd /home/ubuntu
-git clone https://github.com/riteshsingh07/python-fastapi-app.git
+
+# Clone the correct repo
+git clone https://github.com/YOUR_USERNAME/python-fastapi-app.git
+
+# Move into the actual cloned directory
 cd python-fastapi-app
 
+# Build docker image
 docker build -t python-api-image:latest .
 
-docker run -d -p5555:5555 python-api-image:latest
-
-sudo usermod -aG docker ubuntu && newgrp docker
+# Run the container
+docker run -d -p 5555:5555 python-api-image:latest
