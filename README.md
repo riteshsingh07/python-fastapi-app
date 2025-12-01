@@ -79,6 +79,16 @@ unzip awscliv2.zip
 sudo ./aws/install
 aws --version
 ```
+```
+Create a IAM role and provide full EC2 access
+Create a Access Key, which will Access_Key_ID and Secret_Acess_Key_ID
+Once you run the below command, you need to provide the key values:-
+aws configure
+Access_Key_ID: ......
+Secret_Acess_Key_ID: .....
+
+Now AWS is configured.
+```
 
 ```
 sudo apt install docker.io
